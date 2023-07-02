@@ -13,6 +13,9 @@
 		31A29E832A50B9E300AA9F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A29E822A50B9E300AA9F43 /* Assets.xcassets */; };
 		31A29E862A50B9E300AA9F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A29E842A50B9E300AA9F43 /* LaunchScreen.storyboard */; };
 		31A29E902A5175F000AA9F43 /* FlowLayoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A29E8F2A5175F000AA9F43 /* FlowLayoutCell.swift */; };
+		31A29E922A51C08B00AA9F43 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A29E912A51C08B00AA9F43 /* Cell.swift */; };
+		31A29E942A51CA3C00AA9F43 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A29E932A51CA3C00AA9F43 /* Model.swift */; };
+		31A29E962A51D5ED00AA9F43 /* CompositionalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A29E952A51D5ED00AA9F43 /* CompositionalCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		31A29E852A50B9E300AA9F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31A29E872A50B9E300AA9F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31A29E8F2A5175F000AA9F43 /* FlowLayoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayoutCell.swift; sourceTree = "<group>"; };
+		31A29E912A51C08B00AA9F43 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		31A29E932A51CA3C00AA9F43 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		31A29E952A51D5ED00AA9F43 /* CompositionalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		31A29E782A50B9E200AA9F43 /* UICollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				31A29E952A51D5ED00AA9F43 /* CompositionalCell.swift */,
+				31A29E932A51CA3C00AA9F43 /* Model.swift */,
+				31A29E912A51C08B00AA9F43 /* Cell.swift */,
 				31A29E8F2A5175F000AA9F43 /* FlowLayoutCell.swift */,
 				31A29E792A50B9E200AA9F43 /* AppDelegate.swift */,
 				31A29E7B2A50B9E200AA9F43 /* SceneDelegate.swift */,
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				31A29E7E2A50B9E200AA9F43 /* ViewController.swift in Sources */,
+				31A29E962A51D5ED00AA9F43 /* CompositionalCell.swift in Sources */,
 				31A29E7A2A50B9E200AA9F43 /* AppDelegate.swift in Sources */,
+				31A29E922A51C08B00AA9F43 /* Cell.swift in Sources */,
+				31A29E942A51CA3C00AA9F43 /* Model.swift in Sources */,
 				31A29E7C2A50B9E200AA9F43 /* SceneDelegate.swift in Sources */,
 				31A29E902A5175F000AA9F43 /* FlowLayoutCell.swift in Sources */,
 			);
